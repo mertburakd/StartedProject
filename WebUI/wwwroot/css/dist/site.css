@@ -900,17 +900,11 @@ button, input:where([type='button'], [type='reset'], [type='submit']), ::file-se
 .text-black {
   color: var(--color-black);
 }
-.text-blue-500 {
-  color: var(--color-blue-500);
-}
 .text-gray-700 {
   color: var(--color-gray-700);
 }
 .text-purple-500 {
   color: var(--color-purple-500);
-}
-.text-red-500 {
-  color: var(--color-red-500);
 }
 .text-white {
   color: var(--color-white);
