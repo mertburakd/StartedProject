@@ -23,6 +23,21 @@ namespace WebUI.Controllers
             return View();
         }
 
+        public IActionResult Urunler()
+        {
+            return View();
+        }
+
+        public IActionResult Haberler()
+        {
+            return View();
+        }
+
+        public IActionResult Iletisim()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
