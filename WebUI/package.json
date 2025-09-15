@@ -4,11 +4,13 @@
   "main": "index.js",
   "dependencies": {
     "cssesc": "^3.0.0",
+    "jquery": "^3.7.1",
     "lodash.castarray": "^4.4.0",
     "lodash.isplainobject": "^4.0.6",
     "lodash.merge": "^4.6.2",
     "mini-svg-data-uri": "^1.4.4",
     "postcss-selector-parser": "^6.0.10",
+    "sweetalert2": "^11.23.0",
     "util-deprecate": "^1.0.2"
   },
   "devDependencies": {
