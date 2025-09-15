@@ -28,6 +28,9 @@
 
     <partial name="_Footer" />
 
+    @* jQuery - her ortamda kullanılabilir *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
     @* Production ortamında JS dosyaları *@
     @if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") != "Development")
     {
