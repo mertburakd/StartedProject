@@ -2,7 +2,53 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="text-5xl text-purple-500">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center py-12">
+    <h1 class="text-4xl font-bold text-gray-800 mb-8">
+        .NET 9 + Vite + Tailwind CSS
+    </h1>
+
+    <p class="text-lg text-gray-600 mb-8">
+        Modern web development with hot reload and utility-first CSS
+    </p>
+
+    <div class="space-x-4 mb-12">
+        <button class="btn-primary">
+            Primary Button
+        </button>
+
+        <button class="btn-secondary">
+            Secondary Button
+        </button>
+
+        <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition-colors">
+            Green Button
+        </button>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div class="card">
+            <div class="text-blue-500 text-3xl mb-4">⚡</div>
+            <h3 class="text-xl font-semibold mb-4">Vite Development</h3>
+            <p class="text-gray-600">Lightning fast HMR with Vite dev server</p>
+        </div>
+
+        <div class="card">
+            <div class="text-green-500 text-3xl mb-4">🎨</div>
+            <h3 class="text-xl font-semibold mb-4">Tailwind CSS</h3>
+            <p class="text-gray-600">Utility-first CSS framework for rapid UI development</p>
+        </div>
+
+        <div class="card">
+            <div class="text-purple-500 text-3xl mb-4">🚀</div>
+            <h3 class="text-xl font-semibold mb-4">.NET 9</h3>
+            <p class="text-gray-600">Modern, cross-platform web framework</p>
+        </div>
+    </div>
+
+    <div class="mt-12">
+        <p class="text-gray-500">
+            Development: <code class="bg-gray-200 px-2 py-1 rounded">npm run dev</code> +
+            <code class="bg-gray-200 px-2 py-1 rounded">dotnet watch</code>
+        </p>
+    </div>
 </div>
